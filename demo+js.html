@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+	}
+	.top{
+		height:70px;
+		width:1000px;
+		margin:0 auto;
+	}
+	.top_left{
+		width:200px;
+	}
+	.top_mid{
+		width:670px;
+	}
+	.top_right{
+		width:130px;
+	}
+	.top_left,.top_mid,.top_right{
+		height:70px;
+		float:left;
+	}
+	.top_mid li{
+		float:left;
+		padding-left:10px;
+		list-style-type: none;
+		line-height: 70px;
+	}
+	.top_mid a{
+		text-align: center;
+		display: block;
+		width:100px;
+		text-decoration: none;
+		color:#000;
+	}
+	.top_mid a:hover{
+		background-color: #CD3333;
+	}
+	.wrap{
+		width:1000px;
+		margin:0 auto;
+	}
+	.ad{
+		height:310px;
+		overflow:hidden;
+	}
+	.pic li{
+		list-style-type: none;
+	}
+	.scrollNews{
+		margin-top:10px;
+	}
+	.news_head{
+		height:40px;
+		width: 1000px;
+
+		text-align: left;   
+	}
+	#news_head_left{
+		width:150px;
+		background-color: #CD3333;
+	}
+	#news_head_right{
+		width:850px;
+		background-color:#4D4D4D;
+		overflow: hidden;
+	}
+
+	#news_head_right,#news_head_left{
+		color:#FFF;
+		line-height:40px;
+		float:left;
+		height:40px;
+		text-align:center;
+	}
+	#news_head_right ul li {
+		list-style-type: none;
+		height: 24px;
+	}
+	.news_main{
+		clear:both;
+		margin-top:5px;
+		height:157.2px;
+	}
+	.news_main_left,.news_main_mid,.news_main_right{
+		float:left;
+	}
+	.news_main_left,.news_main_mid,.news_main_right{
+		border:1px solid #E8E8E8;
+		margin-left:1px;
+	}
+	.news_a{
+		margin:0px;
+		text-align:center;
+	}
+	.news_a a{
+		text-decoration:none;
+		color:#000;
+	}
+	/*mian*/
+	.main{
+		margin-top:15px;
+		clear:both;
+	}
+	.news{
+		width:330px;
+		float:left;
+	}
+	.title h2{ 
+		padding-left:15px;
+		height:30px;
+		line-height:30px;
+		font-size:14px;
+		
+		color:#FFF;
+		background-color: #CD3333;
+	}
+	.news_content  a{
+		text-decoration: none;
+		color:#000;
+	}
+	.date{
+		background-color: #CD3333;
+		width:40px;
+		padding:5px;
+		margin:10px;
+		float:left;
+		color:#FFF;
+		font-size:"微软雅黑";
+	}
+	.news_box,.activity_box,.contact_box{
+		height:280px;
+		border:1px solid #E8E8E8;
+	}
+	.news_box h2{
+		padding:5px;
+		font-size:12px;
+	}
+	.news_box li{
+
+		list-style-type: none;
+	}
+	.news_box p{
+		font-size: 15px;
+		color:#666;
+	}
+	.news_content{
+		height:88px;
+		border-bottom:1px solid #E8E8E8;
+	}
+	.news_content p{
+		margin-top:10px;
+		font-size:12px;
+		height:88px;
+	}
+	.activity{
+		margin-left:5px;
+		width:330px;
+		
+		float:left;
+		height:296px;
+	}
+	.activity img{
+		padding-top:20px;
+		padding-left:15px;
+		width:300px;
+		height:100px;
+		margin:0 auto;
+	}
+	.activity_content li{
+		list-style-type: none;
+		padding-left:15px;
+	}
+	.contact{
+		width:330px;
+		float:left;
+		margin-left:5px;
+	}
+	.contact_top{
+		margin-top: 10px;
+		margin-bottom:20px;
+	}
+</style>
+<body>
+<div class="top">
+	<div class="top_left">
+		<img src="http://img.mukewang.com/53edadad0001efe202000070.jpg">
+	</div>
+	<div class="top_mid">
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">产品特色</a></li>
+			<li><a href="#">解决方案</a></li>
+			<li><a href="#">产品价值</a></li>
+			<li><a href="#">帮助中心</a></li>
+			<li><a href="#">关于我们</a></li>
+		</ul>
+	</div>
+	<div class="top_right"></div>
+</div><!-- top结束 -->
+<div class="wrap">
+	<div class="ad">
+		<div class="pic">
+			<ul>
+				<li><img src="http://img.mukewang.com/53edad1600019ae910000310.jpg"></li>
+				<li><img src="http://img.mukewang.com/53edad2c0001b61310000314.jpg"></li>
+				<li><img src="http://img.mukewang.com/53edad3e0001afad10000318.jpg"></li>
+			</ul>
+		</div>
+	</div><!-- ad结束 -->
+	<div class="scrollNews">
+		<div class="news_head">
+			<div id="news_head_left">滚动新闻</div>
+			<div id="news_head_right">
+				<ul id="con1">
+					<li>这是滚动新闻1</li>
+					<li>这是滚动新闻2</li>
+					<li>这是滚动新闻3</li>
+					<li>这是滚动新闻4</li>
+					<li>这是滚动新闻5</li>
+					<li>这是滚动新闻6</li>
+				</ul>
+				<ul id="con2">
+					
+				</ul>
+			</div>
+		</div><!-- news_head结束 -->
+		<div class="news_main">
+			<div class="news_main_left">
+				<div class="news_pic">
+					<img src="http://img.mukewang.com/53edad54000119fb03300130.jpg">
+				</div>
+				<div class="news_a">
+					<a href="">玩转BootStrap</a>
+				</div>
+			</div>
+			<div class="news_main_mid">
+				<div class="news_pic">
+					<img src="http://img.mukewang.com/53edad690001260a03300130.jpg">
+				</div>
+				<div class="news_a">
+					<a href="">企业网站案例</a>
+				</div>
+			</div>
+			<div class="news_main_right">
+				<div class="news_pic">
+					<img src="http://img.mukewang.com/53edad7a0001cde803300130.jpg">
+				</div>
+				<div class="news_a">
+					<a href="">Javascript基础</a>
+				</div>
+			</div>
+		</div><!-- news_main结束 -->
+	</div><!-- scrollNews结束 -->
+	<div class="main">
+		<div class="news">
+			<div class="title">
+				<h2>新闻中心</h2>
+			</div>
+			<div class="news_box">
+				<div class="news_content">
+					<div class="date">5月25日</div><a href="#"><h2>学习计划之“Android攻城狮初养成”</h2><p>想成为Android攻城狮?想开发一款专属App?没有任何基础的你,应该从何学起？</a></p>
+				</div>
+				<div  class="news_content">
+					<div class="date">5月25日</div><a href="#"><h2>学习计划之“Android攻城狮初养成”</h2><p>想成为Android攻城狮?想开发一款专属App?没有任何基础的你,应该从何学起？</a></p>
+				</div>
+				<div  class="news_content">
+					<div class="date">5月25日</div><a href="#"><h2>学习计划之“Android攻城狮初养成”</h2><p>想成为Android攻城狮?想开发一款专属App?没有任何基础的你,应该从何学起？</a></p>
+				</div>
+				<!-- <ul>
+					<li></li>
+					<li><div class="date">5月25日</div><a href="#"><h2>学习计划之“Android攻城狮初养成”</h2><p>想成为Android攻城狮?想开发一款专属App?没有任何基础的你,应该从何学起？</a></p></li>
+					<li><div class="date">5月25日</div><a href="#"><h2>学习计划之“Android攻城狮初养成”</h2><p>想成为Android攻城狮?想开发一款专属App?没有任何基础的你,应该从何学起？</a></p></li>
+				</ul> -->
+			</div>
+		</div><!-- news结束 -->
+		<div class="activity">
+			<div class="title">
+				<h2>热门活动</h2>
+			</div>
+			<div class="activity_box">
+				<div class="pic_box">
+					<img src="http://img.mukewang.com/53edacdd0001b8e804820302.jpg">
+				</div>
+				<div class="activity_content">
+					<ul>
+						<li>慕课网2048游戏源码征集</li>
+						<li>慕课网2048游戏源码征集</li>
+						<li>慕课网2048游戏源码征集</li>
+						<li>慕课网2048游戏源码征集</li>
+						<li>慕课网2048游戏源码征集</li>
+						<li>慕课网2048游戏源码征集</li>
+						<li>慕课网2048游戏源码征集</li>
+					</ul>
+				</div>
+			</div>
+		</div><!-- activity结束 -->
+		<div class="contact">
+			<div class="title">
+				<h2>联系我们</h2>
+			</div>
+			<div class="contact_box">
+				<div class="contact_top">
+					<p>讲师招募</p>
+					<p>邹同学</p>
+					<p>电话：189111111</p>
+					<p>QQ：387619012</p>
+					<p>E-mail:387619012@@qq.com</p>
+				</div>
+				<div class="contact_bottom">
+					<p>网站合作</p>
+					<p>吕同学</p>
+					<p>电话：189111111</p>
+					<p>QQ：387619012</p>
+					<p>E-mail:387619012@@qq.com</p>
+				</div>
+			</div>
+		</div>
+	</div><!-- main结束 -->
+</div><!-- wrap结束 -->
+<div class="copyright">
+	
+</div>
+<script type="text/javascript">
+	var area = document.getElementById("news_head_right");
+	var con1 = document.getElementById("con1");
+	var con2 = document.getElementById("con2");
+	var speed =50;
+	area.scrollTop=0;
+	con2.innerHTML = con1.innerHTML;
+	function scrollUp(){
+		if(area.scrollTop >= con1.scrollHeight){
+			 area.scrollTop = 0;
+		}else{
+		   area.scrollTop ++; 
+		 } 
+	}
+	var myScroll=setInterval("scrollUp()",speed);
+	area.onmouseover= function(){
+		clearInterval(myScroll);
+	}
+	area.onmouseout = function(){
+	 myScroll = setInterval("scrollUp()",speed);
+	}
+</script>
+</body>
+</html>
